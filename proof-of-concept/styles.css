@@ -61,3 +61,21 @@ body {
     font-size: 1.5em;
     padding: 10px 0px 0px 10px;
 }
+
+@media (max-width: 550px) {
+    #container {
+        width: auto;
+        height: 100%;
+    }
+    
+    .row{
+        flex-direction:column;
+    }
+
+    html,body{        
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

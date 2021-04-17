@@ -13,13 +13,13 @@
 <body>
     <div id="container">
         <div class="row">
-            <div class="column grow-right" onmouseover="onMouseOver('Resume')" onmouseleave="onMouseLeave()" style="background-image: url(./assets/1.jpg);">
+            <div id="resume" class="column grow-right" onclick="onClick('resume')" onmouseover="onMouseOver('Resume')" onmouseleave="onMouseLeave()" style="grid-area: 1 / 1;background-image: url(./assets/1.jpg);">
             </div>
-            <div class="column grow" onmouseover="onMouseOver('Portfolio')" onmouseleave="onMouseLeave()" style="background-image: url(./assets/2.jpg);">
+            <div id="porfolio" class="column grow" onclick="onClick('portfolio')" onmouseover="onMouseOver('Portfolio')" onmouseleave="onMouseLeave()" style="background-image: url(./assets/2.jpg);">
             </div>
-            <div class="column grow" onmouseover="onMouseOver('Blog')" onmouseleave="onMouseLeave()" style="background-image: url(./assets/3.jpg);">
+            <div id="resume" class="column grow" onclick="onClick('resume')" onmouseover="onMouseOver('Blog')" onmouseleave="onMouseLeave()" style="background-image: url(./assets/3.jpg);">
             </div>
-            <div class="column grow-left" onmouseover="onMouseOver('Contact')" onmouseleave="onMouseLeave()" style="background-image: url(./assets/4.jpg);">
+            <div id="contact" class="column grow-left" onclick="onClick(event)" onmouseover="onMouseOver('Contact')" onmouseleave="onMouseLeave()" style="background-image: url(./assets/4.jpg);">
             </div>
         </div>
         <div class="row" id="title">
